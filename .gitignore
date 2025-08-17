@@ -1,11 +1,13 @@
 # Binaries for programs and plugins
 *.exe
+*.prof
 *.dll
 *.so
 *.dylib
 
 # Test binaries
 *_test
+*.test
 
 # Output of 'go build'
 GoTaskManager
@@ -16,5 +18,15 @@ GoTaskManager
 # IDE and editor files
 .vscode/
 .idea/
-.DS_Store
 
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file
+.env
+
+# Go module cache and build artifacts
+/bin/
+/pkg/
+/tmp/
